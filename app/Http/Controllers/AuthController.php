@@ -14,8 +14,6 @@ class AuthController extends FormatResponse
     //FUNCION PARA AHCER LOGIN POR MEDIO DE WEB TOKEN
     public function login(Request $request)
     {
-        $r = base64_encode('caNEJR2i4b92Kfj3t0xTkMLkMCRxyDpDg94OcaNEJR2i4b92Kfj3t0xTkMLkMCRxyDpDg94O');
-        dd($r);
         // VALIDAMOS QUE AL MENOS LLEGUE EL EMAIL Y LA CONTRASEÑA
         $rules = [
             'email' => 'required',
