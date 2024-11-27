@@ -38,6 +38,31 @@ class HeadquarterSeed extends Seeder
                 'name' => 'Location 5',
                 'image' => 'https://via.placeholder.com/150',
             ],
+            [
+                'code' => 'L-006',
+                'name' => 'Location 6',
+                'image' => 'https://via.placeholder.com/150',
+            ],
+            [
+                'code' => 'L-007',
+                'name' => 'Location 7',
+                'image' => 'https://via.placeholder.com/150',
+            ],
+            [
+                'code' => 'L-008',
+                'name' => 'Location 8',
+                'image' => 'https://via.placeholder.com/150',
+            ],
+            [
+                'code' => 'L-009',
+                'name' => 'Location 9',
+                'image' => 'https://via.placeholder.com/150',
+            ],
+            [
+                'code' => 'L-010',
+                'name' => 'Location 10',
+                'image' => 'https://via.placeholder.com/150',
+            ],
         ];
 
         foreach ($locations as $location) {

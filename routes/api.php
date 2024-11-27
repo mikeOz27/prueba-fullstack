@@ -17,6 +17,7 @@ Route::prefix('auth')->group(function () {
     Route::post('/login', [AuthController::class, 'login'])->name('login'); //API PARA HACER LOGIN
     Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
     Route::post('/get_location', [HeadquarterController::class, 'get_location'])->name('get_location'); //API PARA OBTENER LA UBICACION DE LAS
+    // Route::post('/get_location', [HeadquarterController::class, 'get_location'])->name('get_location')->middleware([JWT::class]); //API PARA OBTENER LA UBICACION DE LAS
 });
 
 
