@@ -11,6 +11,7 @@
                                                    DB_USERNAME=usuario_por_db_por_defecto
                                                    DB_PASSWORD=password_por_defecto
 
-### 6. Pegar la KEY en el .env: API_KEY=caNEJR2i4b92Kfj3t0xTkMLkMCRxyDpDg94O!caNEJR2i4b92Kfj3t0xTkMLkMCRxyDpDg94O
-### 7. probar servicio de obtener las locaciones, sin llave: php artisan test
+### 6. Pegar KEY en el .env: 
+                            API_KEY=Y2FORUpSMmk0YjkyS2ZqM3QweFRrTUxrTUNSeHlEcERnOTRPY2FORUpSMmk0YjkyS2ZqM3QweFRrTUxrTUNSeHlEcERnOTRP
+### 7. probar servicio de obtener las locaciones, sin llave: `php artisan test`
 
