@@ -12,7 +12,9 @@
     DB_PASSWORD=password_por_defecto
 ### 6. Pegar KEY en el .env: 
     API_KEY=Y2FORUpSMmk0YjkyS2ZqM3QweFRrTUxrTUNSeHlEcERnOTRPY2FORUpSMmk0YjkyS2ZqM3QweFRrTUxrTUNSeHlEcERnOTRP
-### 7 `php artisan serve`
+### 7. `php artisan serve`
+### Este corre el servidor en el puerto 8000, si tiene algun problema con ese puerto, pueden correr el comando:php artisan serve --port=cualquier_otro_puerto. Ejemplo:
+    php artisan serve --port=8001
 ### 8. Credential:
     test@example.com
     password
