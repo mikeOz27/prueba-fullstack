@@ -12,11 +12,12 @@
     DB_PASSWORD=password_por_defecto
 ### 6. Pegar KEY en el .env: 
     API_KEY=Y2FORUpSMmk0YjkyS2ZqM3QweFRrTUxrTUNSeHlEcERnOTRPY2FORUpSMmk0YjkyS2ZqM3QweFRrTUxrTUNSeHlEcERnOTRP
-### 7. Credential:
+### 7 `php artisan serve`
+### 8. Credential:
     test@example.com
     password
-### 7. Probar pruebas de test, pasar a la rama test:
+### 9. Para pruebas de test, pasar a la rama test, primero detener el servior: tecla win + C(windows) - comand + c(iO)
     git branch -M test
     git pull origin test
-### 8. `php artisan test`
+    php artisan test
 
