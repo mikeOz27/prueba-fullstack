@@ -13,5 +13,8 @@
 
 ### 6. Pegar KEY en el .env: 
     API_KEY=Y2FORUpSMmk0YjkyS2ZqM3QweFRrTUxrTUNSeHlEcERnOTRPY2FORUpSMmk0YjkyS2ZqM3QweFRrTUxrTUNSeHlEcERnOTRP
+### 7. Credential:
+    test@example.com
+    password
 ### 7. probar servicio de obtener las locaciones, sin llave: `php artisan test`
 

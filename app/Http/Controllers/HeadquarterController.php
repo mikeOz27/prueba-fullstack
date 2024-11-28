@@ -18,11 +18,11 @@ class HeadquarterController extends FormatResponse
         $encodedString = $request->header('Api_key_authorized'); //SE OBTIENE LA LLAVE DEL HEADER
         $decodedString = base64_decode($encodedString);
 
-        // if($decodedString == env('API_KEY_B64')) { //SE VALIDA SI LA LLAVE ES IGUAL A LA QUE SE ENCUENTRA EN EL ARCHIVO .ENV
+        if($decodedString == env('API_KEY_B64')) { //SE VALIDA SI LA LLAVE ES IGUAL A LA QUE SE ENCUENTRA EN EL ARCHIVO .ENV
             $all_locations = Headquarter::all(); //SE CONSULTAN TODAS LAS SEDES
             return $this->toJson($this->estadoExitoso($all_locations)); //SE RETORNA EL MENSAJE DE EXITO
-        // } else {
-        //     return $this->toJson($this->accesoDenegado()); //SE RETORNA EL MENSAJE DE ACCESO DENEGADO EN CASO DE QUE LA LLAVE SEA INCORRECTA
-        // }
+        } else {
+            return $this->toJson($this->accesoDenegado()); //SE RETORNA EL MENSAJE DE ACCESO DENEGADO EN CASO DE QUE LA LLAVE SEA INCORRECTA
+        }
     }
 }
