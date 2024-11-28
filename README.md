@@ -10,11 +10,13 @@
     DB_DATABASE=prueba_fullstack
     DB_USERNAME=usuario_por_db_por_defecto
     DB_PASSWORD=password_por_defecto
-
 ### 6. Pegar KEY en el .env: 
     API_KEY=Y2FORUpSMmk0YjkyS2ZqM3QweFRrTUxrTUNSeHlEcERnOTRPY2FORUpSMmk0YjkyS2ZqM3QweFRrTUxrTUNSeHlEcERnOTRP
 ### 7. Credential:
     test@example.com
     password
-### 7. probar servicio de obtener las locaciones, sin llave: `php artisan test`
+### 7. Probar pruebas de test, pasar a la rama test:
+    git branch -M test
+    git pull origin test
+### 8. `php artisan test`
 
