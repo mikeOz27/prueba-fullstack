@@ -13,8 +13,10 @@
 
 ### 6. Pegar KEY en el .env: 
     API_KEY=Y2FORUpSMmk0YjkyS2ZqM3QweFRrTUxrTUNSeHlEcERnOTRPY2FORUpSMmk0YjkyS2ZqM3QweFRrTUxrTUNSeHlEcERnOTRP
-### 7. Credential:
+### 7 `php artisan migrate:refresh --sedd`
+### 8 `php artisan serve`
+### 9. Credential:
     test@example.com
     password
-### 7. probar servicio de obtener las locaciones, sin llave: `php artisan test`
+### 8. Para probar servicio de obtener las locaciones, sin llave: `php artisan test`
 
