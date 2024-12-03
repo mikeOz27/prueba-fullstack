@@ -16,4 +16,8 @@ class Headquarter extends Model
     protected $hidden = [
         'updated_at',
     ];
+
+    protected $casts = [
+        'created_at' => 'datetime:Y-m-d',
+    ];
 }
